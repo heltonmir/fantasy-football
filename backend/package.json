@@ -1,0 +1,33 @@
+{
+  "name": "fantasy-football-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heltonmir/fantasy-football.git"
+  },
+  "keywords": [
+    "fantasy",
+    "football"
+  ],
+  "author": "Helton Miranda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heltonmir/fantasy-football/issues"
+  },
+  "homepage": "https://github.com/heltonmir/fantasy-football#readme",
+  "dependencies": {
+    "@apollo/federation": "^0.6.4",
+    "@graphql-modules/core": "^0.7.5",
+    "apollo-server": "^2.6.4",
+    "dataloader": "^1.4.0",
+    "graphql": "^14.3.1",
+    "mongodb": "^4.1.4"
+  }
+}
